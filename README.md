@@ -1,4 +1,6 @@
-# codespaces-tauri
+# Codespaces Tauri
+
+>Quickly create and run GUI Tauri apps within [GitHub codespaces](https://github.com/features/codespaces). Includes a [workflow](.github/workflows/pre-release.yml) to attach linux, mac, and windows builds to a [release](https://github.com/JosiahSiegel/codespaces-tauri/releases).
 
 [![Pre-Release](https://github.com/JosiahSiegel/codespaces-tauri/actions/workflows/pre-release.yml/badge.svg)](https://github.com/JosiahSiegel/codespaces-tauri/actions/workflows/pre-release.yml)
 
