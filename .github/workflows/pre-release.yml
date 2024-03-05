@@ -51,7 +51,7 @@ jobs:
     - name: Create Tauri App
       run: |
         cargo install create-tauri-app;
-        cargo create-tauri-app --force --yes ${{ env.APP_NAME }} --template vue --manager npm
+        cargo create-tauri-app --yes ${{ env.APP_NAME }} --template vue --manager npm || true
 
     - name: Replace bundle identifier
       working-directory: ./${{ env.APP_NAME }}/src-tauri
