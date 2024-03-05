@@ -66,14 +66,6 @@ jobs:
       working-directory: ./my-tauri-app
       run: npm install
 
-    - name: Build frontend
-      working-directory: ./my-tauri-app
-      run: npm run build
-
-    - name: Build backend
-      working-directory: ./my-tauri-app/src-tauri
-      run: cargo build --release
-
     - name: Build Tauri App
       id: build
       uses: tauri-apps/tauri-action@v0
