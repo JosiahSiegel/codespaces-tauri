@@ -1,10 +1,14 @@
 # codespaces-tauri
 
-
 ## Get started
 
  1. Run Codespaces in browser
  2. `npm create tauri-app@latest`
+    * For non-interactive:
+      ```sh
+      cargo install create-tauri-app;
+      cargo create-tauri-app --force --yes my-tauri-app --template vue --manager npm
+      ```
  3. `cd tauri-app`
  4. `npm install`
  5. `WEBKIT_DISABLE_COMPOSITING_MODE=1 npm run tauri dev`
